@@ -87,7 +87,7 @@ RSpec.configure do |config|
 
   config.include Devise::Test::IntegrationHelpers, type: :feature
   config.include FactoryGirl::Syntax::Methods
-  Capybara.javascript_driver = :poltergeist
+  # Capybara.javascript_driver = :poltergeist
   Capybara.server = :puma 
 
 end
